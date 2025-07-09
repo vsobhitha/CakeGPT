@@ -1,0 +1,319 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CakeGPT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="tea-style.css">
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+  <!-- Include your Navbar here -->
+  <!--navbar start-->
+  <nav class="navbar navbar-expand-lg coloring first-navbar">
+  <div class="container-fluid">    
+    <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--offcanvas style-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./about-us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speciality-cakes.html">SPECIALITY CAKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Find us.html">FIND US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact us.html">CONTACT US</a>
+          </li>
+          <form action="" class="d-flex buttons">
+            <input class="rounded-pill search-placeholder me-2 ms-2 w-50 ps-2" type="search" placeholder="🔍Search">
+            <button class="btn search-btn rounded-pill" type="submit"><a href="./orderonline.html">ORDER ONLINE</a></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!--navbar end-->
+
+  <!-- Hero Section -->
+  <section class="tea-hero tea-hero-section">
+    <!-- <img src="https://i.ibb.co/TYW3zW5/tea-cake-icon.png" alt="Tea Cake" /> -->
+    <h1>TEA CAKES</h1>
+    <img src="./assets/underline.jpg" alt="">
+    <p class="pb-5">The perfect companions to your tea (or coffee!), our range of tea cakes include the classic Mawa cake and Pound
+      cake, the decadent <strong>Dense Loaf</strong> and the delicious <strong>Banana Cake</strong>.</p>
+  </section>
+
+  <!-- Breadcrumb + Sorting -->
+  <div class="breadcrumb-select container mt-3">
+    <small>Home › Products › <strong>Tea Cakes</strong></small>
+    <select class="form-select w-auto">
+      <option selected>Featured</option>
+      <option>Best Selling</option>
+      <option>Alphabetically, A-Z</option>
+      <option>Alphabetically, Z-A</option>
+      <option>Date, New to Old</option>
+      <option>Date, Old to New</option>
+    </select>
+  </div>
+
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar">
+        <h5>FILTERS</h5>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="egg" />
+          <label class="form-check-label" for="egg">Egg</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="eggless" />
+          <label class="form-check-label" for="eggless">Eggless</label>
+        </div>
+
+        <h5 class="mt-4">PRODUCTS</h5>
+        <ul class="list-unstyled">
+          <li>Brownies</li>
+          <li>Biscuits, Cookies & Crackers</li>
+          <li>Breads</li>
+          <li>Cakes</li>
+          <li>Combos</li>
+          <li>Croissants & Danishes</li>
+          <li>Desserts & Cupcakes</li>
+          <li>Pastries</li>
+          <li>Sandwiches & Savouries</li>
+          <li>Tea Cakes</li>
+          <li>Beverages</li>
+          <li>Gifting</li>
+          <li>Collectibles</li>
+          <li>Mango Specials</li>
+        </ul>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="col-md-9">
+        <div class="row g-4">
+
+          <!-- Product 1 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <span class="badge-custom">Bestseller</span>
+              <img src="./assets/tea-cards1.webp" alt="Dense Loaf" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">A homestyle cake made with pure chocolate, it can be enjoyed in many
+                  ways - on its own, served warm or cold, with ice cream or chocolate sauce. Loved equally by the young
+                  and old, one can never get tired of this versatile cake.
+                </p>
+              </div>
+              <p class="mt-2">Dense Loaf</p>
+              <span class="price">₹200</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/tea-cards2.webp" alt="Mawa Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">This signature cake is made using a traditional Parsi recipe and contains
+                  generous amounts of mava (khoya). It tastes best on its own or dunked into tea or coffee. It also
+                  tastes divine when warmed up slightly and had with a scoop of ice cream.
+                </p>
+              </div>
+              <p class="mt-2">Mawa Cake</p>
+              <span class="price">₹230</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/tea-cards3.webp" alt="Pound Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">A classic vanilla cake made with equal parts butter, sugar, flour and
+                  eggs. It tastes good on its own or when served with whipped cream and berries. It also makes for a
+                  great base for classic desserts such as Tiramisu.
+                </p>
+              </div>
+              <p class="mt-2">Pound Cake</p>
+              <span class="price">₹180</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <span class="badge-custom">Bestseller</span>
+              <img src="./assets/tea-cards4.webp" alt="Banana Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">A moist tea cake made with ripe bananas and cinnamon. Best enjoyed for
+                  breakfast, served slightly warm with tea or hot chocolate. It even makes for a yummy french toast!
+                </p>
+              </div>
+              <p class="mt-2">Banana Cake</p>
+              <span class="price">₹210</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/tea-cards5.webp" alt="Tea Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">This signature cake is made using a traditional Parsi recipe and contains
+                  generous amounts of mava (khoya). It tastes best on its own or dunked into tea or coffee. It also
+                  tastes divine when warmed up slightly and had with a scoop of ice cream.
+                </p>
+              </div>
+              <p class="mt-2">Classic Tea Cake</p>
+              <span class="price">₹150</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/tea-cards6.webp" alt="Lemon Tea Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">A homestyle cake made with pure chocolate, it can be enjoyed in many ways
+                  - on its own, served warm or cold, with ice cream or chocolate sauce. Loved equally by the young and
+                  old, one can never get tired of this versatile cake.
+                </p>
+              </div>
+              <p class="mt-2">Lemon Tea Cake</p>
+              <span class="price">₹160</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 7 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/tea-cards7.webp" alt="Chocolate Tea Cake" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">A moist tea cake made with ripe bananas and cinnamon. Best enjoyed for
+                  breakfast, served slightly warm with tea or hot chocolate. It even makes for a yummy french toast!
+                </p>
+              </div>
+              <p class="mt-2">Chocolate Tea Cake</p>
+              <span class="price">₹170</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Add more products below if needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Like Our Products Section Start -->
+<div class="container-fluid text-center like-section p-sm-5 border" data-aos="fade-up">
+  <h2 class="like-header mt-5">Like our products?</h2>
+  <img src="./assets/speciality-cakes-title-underline.webp" alt="" class="my-3"><br>
+  <p class="fw-medium">Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.</p>
+  <a href="./orderonline.html" class="text-uppercase btn btn-primary px-4 rounded-pill mt-3 py-2 order-btn">order online</a>
+</div>
+<!-- Like Our Products Section End -->
+
+
+  <!-- Include your Footer here -->
+  <!--footer starts-->
+  <footer class="container-fluid footer-section">
+    <div class="row py-5 text-center">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="#">CakeGPT</a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="" class="list-link">OUR STORY</a></li>
+          <li><a href="" class="list-link">OUR PRODUCTS</a></li>
+          <li><a href="" class="list-link">SPECIALITY CAKES</a></li>
+          <li><a href="" class="list-link">BLOGS</a></li>
+          <li><a href="" class="list-link">CSR</a></li>
+          <li><a href="" class="list-link">HTML SITEMAP</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="" class="list-link">PRIVACY POLICY</a></li>
+          <li><a href="" class="list-link">COOKIE POLICY</a></li>
+          <li><a href="" class="list-link">REFUND POLICY</a></li>
+          <li><a href="" class="list-link">FAQs</a></li>
+          <li><a href="" class="list-link">NUTRITIONAL INFORMATION</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+          <li class="mb-3"><a href="" class="list-link"><i class="bi bi-telephone"></i> +91 8182-881881</a></li>
+          <li class="my-3"><a href="" class="list-link"><i class="bi bi-envelope"></i> contact@cakegpt.in</a></li>
+          <li class="my-4"><span><i
+                class="bi bi-youtube border rounded-circle p-2 border-info border-2 text-danger footer-icon"></i>&nbsp;&nbsp;&nbsp;<i
+                class="bi bi-instagram border rounded-circle p-2 border-info border-2 text-warning footer-icon"></i>&nbsp;&nbsp;&nbsp;<i
+                class="bi bi-facebook border rounded-circle p-2 border-info border-2 text-primary footer-icon"></i></span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="">Sign up for updates</a></li>
+          <form action="">
+            <div class="d-flex my-3">
+              <input type="email" class="form-control me-2 bg-transparent border border-white" id="exampleInputEmail1"
+                placeholder="Enter your email..." style="min-width: 150px;">
+              <button type="button" class="btn btn-light ps-2 bg-transparent border border-white"
+                style="height: 50px;padding-left:2px;">Light</button>
+            </div>
+          </form>
+          <div>
+            <p>OUR STORES - <a href="" class="list-link">Agra</a> | <a href="" class="list-link">Ahmedabad</a> | <a
+                href="" class="list-link">Ambala</a> | <a href="" class="list-link">Anand</a> | <a href=""
+                class="list-link">Bengaluru</a> | <a href="" class="list-link">Chandigarh-Mohali</a> | <a href=""
+                class="list-link">Chennai</a> | <a href="" class="list-link">Coimbatore </a>| <a href=""
+                class="list-link">Dehradun</a> | <a href="" class="list-link">Delhi</a> | <a href=""
+                class="list-link">Faridabad</a> | <a href="" class="list-link">Ghaziabad</a> | <a href=""
+                class="list-link">Gurgaon</a> | <a href="" class="list-link">Goa</a> | <a href=""
+                class="list-link">Hyderabad</a> | <a href="" class="list-link">Indore</a> | <a href=""
+                class="list-link">Jaipur</a> | <a href="" class="list-link">Jalandhar</a> | <a href=""
+                class="list-link">Kanpur</a> | <a href="" class="list-link">Karnal</a> | <a href=""
+                class="list-link">Lucknow</a> | <a href="" class="list-link">Ludhiana </a>| <a href=""
+                class="list-link">Meerut</a> | <a href="" class="list-link">Mumbai </a> | <a href=""
+                class="list-link">Mysore</a> | <a href="" class="list-link">Nagpur</a> | <a href=""
+                class="list-link">Nashik</a> | <a href="" class="list-link">Navi</a> | <a href=""
+                class="list-link">Noida</a> | <a href="" class="list-link">Patiala</a> | <a href=""
+                class="list-link">Prayagraj</a> | <a href="" class="list-link">Pune</a> | <a href=""
+                class="list-link">Raipur</a> | <a href="" class="list-link">Rajkot</a> | <a href=""
+                class="list-link">Rohtak</a> | <a href="" class="list-link">Surat</a> | <a href=""
+                class="list-link">Thane</a> | <a href="" class="list-link">Vadodara</a> | <a href=""
+                class="list-link">Varanasi</a> | <a href="" class="list-link">Vijaywada</a></p>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--footer ends-->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>

@@ -1,0 +1,271 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CakeGPT</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--aos css link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--navbar start-->
+<nav class="navbar navbar-expand-lg coloring first-navbar">
+  <div class="container-fluid">    
+    <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--offcanvas style-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./about-us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speciality-cakes.html">SPECIALITY CAKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Find us.html">FIND US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact us.html">CONTACT US</a>
+          </li>
+          <form action="" class="d-flex buttons">
+            <input class="rounded-pill search-placeholder me-2 ms-2 w-50 ps-2" type="search" placeholder="🔍Search">
+            <button class="btn search-btn rounded-pill" type="submit"><a href="./orderonline.html">ORDER ONLINE</a></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--navbar end-->
+<!--modal button starts-->
+<button class="btn btn-primary modal-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Top-Special-Cakes</button>
+<!--modal button ends-->
+<!--speciality cakes hero section starts-->
+<div class="container-fluid special-cakes-hero-section text-center p-lg-5" data-aos="fade-up">
+    <div>
+        <h1 class="speciality-cakes-header">SPECIALITY CAKES</h1>
+        <img src="./assets/speciality-cakes-title-underline.webp" alt="">
+        <div class="d-flex justify-content-center">
+            <p class=" w-100">Our made-to-order range of speciality cakes is here to make any celebration great! From CakeGPT classic cakes to gourmet cakes to customized theme cakes, we have something for every special occasion.</p>
+        </div>
+    </div>
+</div>
+<!--speciality cakes hero section ends-->
+<!--cakegpt classic cake section starts-->
+<div class="container-fluid classic-cakes text-center p-5">
+    <h1 class="classic-cakes-header">CakeGPTClassic Cakes</h1>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="">
+    <div class="my-3 d-flex justify-content-center">
+        <p style="width: 1000px;">A specially curated range of signature CakeGPT cakes with unique flavours and original homestyle recipes. The classics are here to make your special moments more joyous!</p>
+    </div>
+    <div class="container">
+        <div class="row p-3 bg-white rounded-1" data-aos="fade-down">
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <img src="./assets/special-cake1.webp" alt="" width="100%" height="300px" class="special-cake-image">
+                <p class="special-cake-text text-start my-2 ps-2">After Nine cake</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <img src="./assets/special-cake2.webp" alt="" width="100%" height="300px" class="special-cake-image">
+                <p class="special-cake-text text-start my-2 ps-2">Almond Nougatine Cake</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <img src="./assets/special-cake3.webp" alt="" width="100%" height="300px" class="special-cake-image">
+                <p class="special-cake-text text-start my-2 ps-2">cappuccino cake</p>
+            </div>
+            <div class="col-12 col-sm-6 col-md-6 col-lg-3">
+                <img src="./assets/special-cake4.webp" alt="" width="100%" height="300px" class="special-cake-image">
+                <p class="special-cake-text text-start my-2 ps-2">carrot cake</p>
+            </div>
+        </div>
+    </div>
+    <a href="./classic-cakes.html" class="btn btn-primary px-4 rounded-pill mt-5 classic-cake-link">VIEW ALL</a>
+</div>
+<!--cakegpt classic cake section ends-->
+<!--custom theme cakes starts-->
+<div class="container-fluid custom-cakes text-center p-5">
+    <h1 class="custom-header">Customised Theme Cakes</h1>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="" class="mt-3">
+    <div class="container my-4">
+        <div class="row" data-aos="fade-down">
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-4">
+                <div class="text-end">
+                  <img src="./assets/custom-chair.webp" alt="" width="300px" height="300px">
+                </div>
+            </div>
+            <div class="col-12 col-sm-12 col-md-12 col-lg-6 col-xl-8 py-5">
+                <div class="mt-4">
+                    <p class="text-start w-75">We handcraft and customize celebration cakes for all special occasions. From theme-based and personalized birthday cakes to exquisite multi-tiered wedding cakes, we have all your celebrations covered!</p>
+                </div>
+                <div class="my-2">
+                    <p class="text-start w-75">Write to us with your customized theme cake requirements at - contact@cakegpt.in</p>
+                </div>
+            </div>
+        </div>
+    </div>
+</div>
+<!--custom theme cakes ends-->
+<!--pre-order styles starts-->
+<div class="container-fluid text-center border pre-order p-5" data-aos="fade-up">
+    <h2 class="pre-order-header">Pre Order Now!</h2>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="" class="my-3">
+    <p class="mt-2 fw-medium">To pre-order, call us at +91 8182881881 or write to us at contact@cakegpt.in</p>
+    <div class="d-flex justify-content-center">
+      <a href="./contact us.html" class="btn btn-primary px-5 rounded-pill mt-1 classic-cake-link mx-2">CALL NOW</a>
+    <a href="./contact us.html" class="btn btn-primary px-5 rounded-pill mt-1 classic-cake-link mx-2">EMAIL US</a>
+    </div>
+</div>
+<!--pre-order styles ends-->
+<!--modal styles starts-->
+<div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel">Top Cakes</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>New Year Cakes</h4>
+        <div class="row">
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/newyearcake1.webp" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/newyearcake2.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/newyearcake3.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/newyearcake4.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary footer-btn" data-bs-target="#exampleModalToggle2" data-bs-toggle="modal">More Cakes</button>
+      </div>
+    </div>
+  </div>
+</div>
+<div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2" tabindex="-1">
+  <div class="modal-dialog modal-dialog-centered">
+    <div class="modal-content">
+      <div class="modal-header">
+        <h1 class="modal-title fs-5" id="exampleModalToggleLabel2">More Cakes</h1>
+        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+      </div>
+      <div class="modal-body">
+        <h4>Birthday Cakes</h4>
+        <div class="row">
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/birthday-cake1.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/birthday-cake2.webp" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/birthday-cake3.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/birthday-cake4.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+        </div>
+        <h4>Aniversary Cakes</h4>
+        <div class="row">
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/anniversary-cake1.webp" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/anniversary-cake2.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/anniversary-cake3.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+          <div class="col-6 col-sm-3 col-md-3 col-lg-3">
+            <img src="./assets/anniversary-cake4.jpg" alt="" class="w-100 p-2 p-md-0" height="100px">
+          </div>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <button class="btn btn-primary footer-btn" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Back to first</button>
+      </div>
+    </div>
+  </div>
+</div>
+<!--modal style ends-->
+<!--footer starts-->
+<footer class="container-fluid footer-section">
+  <div class="row py-5 text-center">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+      <a class="navbar-brand fw-bold fs-3 text-info" href="#">CakeGPT</a>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+            <li><a href="" class="list-link">OUR STORY</a></li>
+            <li><a href="" class="list-link">OUR PRODUCTS</a></li>
+            <li><a href="" class="list-link">SPECIALITY CAKES</a></li>
+            <li><a href="" class="list-link">BLOGS</a></li>
+            <li><a href="" class="list-link">CSR</a></li>
+            <li><a href="" class="list-link">HTML SITEMAP</a></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+            <li><a href="" class="list-link">PRIVACY POLICY</a></li>
+            <li><a href="" class="list-link">COOKIE POLICY</a></li>
+            <li><a href="" class="list-link">REFUND POLICY</a></li>
+            <li><a href="" class="list-link">FAQs</a></li>
+            <li><a href="" class="list-link">NUTRITIONAL INFORMATION</a></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+           <li class="mb-3"><a href="" class="list-link"><i class="bi bi-telephone"></i> +91 8182-881881</a></li>
+           <li class="my-3"><a href="" class="list-link"><i class="bi bi-envelope"></i> contact@cakegpt.in</a></li>
+          <li class="my-4"><span><i class="bi bi-youtube border rounded-circle p-2 border-info border-2 text-danger footer-icon"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-instagram border rounded-circle p-2 border-info border-2 text-warning footer-icon"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-facebook border rounded-circle p-2 border-info border-2 text-primary footer-icon"></i></span></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+           <li><a href="">Sign up for updates</a></li> 
+           <form action="">
+            <div class="d-flex my-3">
+            <input type="email" class="form-control me-2 bg-transparent border border-white" id="exampleInputEmail1" placeholder="Enter your email..." style="min-width: 150px;" >
+            <button type="button" class="btn btn-light ps-2 bg-transparent border border-white" style="height: 50px;padding-left:2px;">Light</button>
+            </div>
+           </form>
+           <div>
+            <p>OUR STORES - <a href="" class="list-link">Agra</a> | <a href="" class="list-link">Ahmedabad</a> | <a href="" class="list-link">Ambala</a> | <a href="" class="list-link">Anand</a> | <a href="" class="list-link">Bengaluru</a> | <a href="" class="list-link">Chandigarh-Mohali</a> | <a href="" class="list-link">Chennai</a> | <a href="" class="list-link">Coimbatore </a>| <a href="" class="list-link">Dehradun</a> | <a href="" class="list-link">Delhi</a> | <a href="" class="list-link">Faridabad</a> | <a href="" class="list-link">Ghaziabad</a> | <a href="" class="list-link">Gurgaon</a> | <a href="" class="list-link">Goa</a> | <a href="" class="list-link">Hyderabad</a> | <a href="" class="list-link">Indore</a> | <a href="" class="list-link">Jaipur</a> | <a href="" class="list-link">Jalandhar</a> | <a href="" class="list-link">Kanpur</a> | <a href="" class="list-link">Karnal</a> | <a href="" class="list-link">Lucknow</a> | <a href="" class="list-link">Ludhiana </a>| <a href="" class="list-link">Meerut</a> | <a href="" class="list-link">Mumbai </a> | <a href="" class="list-link">Mysore</a> | <a href="" class="list-link">Nagpur</a> | <a href="" class="list-link">Nashik</a> | <a href="" class="list-link">Navi</a> | <a href="" class="list-link">Noida</a> | <a href="" class="list-link">Patiala</a> | <a href="" class="list-link">Prayagraj</a> | <a href="" class="list-link">Pune</a> | <a href="" class="list-link">Raipur</a> | <a href="" class="list-link">Rajkot</a> | <a href="" class="list-link">Rohtak</a> | <a href="" class="list-link">Surat</a> | <a href="" class="list-link">Thane</a> | <a href="" class="list-link">Vadodara</a> | <a href="" class="list-link">Varanasi</a> | <a href="" class="list-link">Vijaywada</a></p>
+           </div>
+        </ul>
+    </div>
+  </div>
+</footer>
+<!--footer ends-->
+
+<!--aos js link-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+<!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,199 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+/*header nav styles starts*/
+.coloring{
+    background-color: pink;
+}
+.nav-link{
+    font-size: 13px;
+}
+.search-btn{
+ border: 1px solid rgb(218, 134, 134);
+ font-size: 13px;
+}
+.search-placeholder{
+    outline: none;
+    border: 1px solid rgb(218, 134, 134);
+    background-color: pink;
+}
+.search-placeholder:hover{
+    background-color:rgb(215, 143, 157) ;
+}
+.buttons a{
+    text-decoration: none;
+    color: rgb(115, 112, 112);
+}
+.search-btn:hover{
+    background-color: rgb(215, 143, 157);
+}
+.first-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}
+/*header nav styles ends*/
+body {
+            background-color: #eef4ea;
+        }
+        h1 {
+            text-align: center;
+            color: #a47702;
+            margin-top: 30px;
+        }
+        p {
+            text-align: center;
+            color: #333;
+            font-size: 14px;
+        }
+        .container {
+            display: flex;
+            justify-content: center;
+            margin-top: 30px;
+            padding: 0 40px;
+        }
+        #contactForm {
+            flex: 2;
+            margin-right: 50px;
+        }
+        #contactForm input, #contactForm textarea, #contactForm select {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        #contactForm label {
+            font-weight: bold;
+        }
+        #contactForm .row {
+            display: flex;
+            justify-content: space-between;
+        }
+        #contactForm .row > div {
+            flex: 1;
+            margin-right: 10px;
+        }
+        #contactForm .row > div:last-child {
+            margin-right: 0;
+        }
+        #contactForm button {
+            background-color: #a48e02;
+            color: white;
+            border: none;
+            margin-bottom: 20px;
+            padding: 10px 20px;
+            cursor: pointer;
+            border-radius: 20px;
+        }
+        #contactForm button:hover {
+            background-color: #7a5b01;
+        }
+        .note {
+            font-size: 12px;
+            color: #555;
+        }
+        .info {
+            flex: 1;
+            border-left: 1px solid #ccc;
+            padding-left: 40px;
+        }
+        .info h3 {
+            font-size: 14px;
+            color: #a47702;
+        }
+        .info p {
+            text-align: left;
+            font-size: 14px;
+        }
+        .info img {
+            display: block;
+            margin: 0 auto 20px auto;
+        }
+/* contact Us ends*/
+ hr{
+    color: blue;
+    margin-top: 0%;
+    margin-bottom: 0%;
+ }
+.footer{
+    background-color: #c6f1e7;
+    padding: 67px 20px 55px;
+    font-size: 16px overlock;
+    text-align: center;
+    
+}
+h3{
+  font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  margin-bottom:30px;
+  color: #a47702;
+}
+p{
+    color:black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.footer-link a {
+    text-decoration: none;
+    color: black;
+}
+.footer-section{
+    background-color: #9AECDB;
+}
+
+.btn-light{
+    transition: .3s all ease-in-out;
+}
+.btn-light:hover{
+    background-color: #A98129 !important;
+}
+#exampleInputEmail1{
+    transition: all .3s linear;
+}
+#exampleInputEmail1:hover{
+    font-size: 1.03rem;
+}
+.list-link{
+    transition: all .3s ease-in-out;
+}
+.list-link:hover{
+    cursor: pointer;
+    color: #A98129;
+}
+.footer-icon{
+    transition: all .4s ease-in-out;
+}
+.footer-icon:hover{
+    background-color: #A98129;
+}
+/* footer style starts*/
+.like-section{
+    background-image: url('./assets/pre-order-img.webp');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-bottom-color: black !important;
+}
+@media screen and (max-width: 500px) {
+    .like-section{
+        height: 400px;
+    }
+}
+.like-header{
+    color: #A98129;
+}
+.order-btn{
+    background-color: #F4bcb4 !important;
+    border-color: #A98129;
+    color: #A98129;
+    transition: all .3s ease-in-out;
+}
+.order-btn:hover{
+    background-color: #A98129 !important;
+    border: none;
+}

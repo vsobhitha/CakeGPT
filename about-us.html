@@ -1,0 +1,341 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>CakeGPT</title>
+    <!--bootstrap css-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-LN+7fdVzj6u52u30Kp6M/trliBMCMKTyK833zpbD+pXdCLuTusPj697FH4R/5mcr" crossorigin="anonymous">
+    <!--external css-->
+    <link rel="stylesheet" href="style.css">
+    <!--bootstrap icon link-->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+    <!--aos css link-->
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+  </head>
+  <body>
+
+<!--navbar start-->
+<nav class="navbar navbar-expand-lg coloring first-navbar">
+  <div class="container-fluid">    
+    <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--offcanvas style-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./about-us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speciality-cakes.html">SPECIALITY CAKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Find us.html">FIND US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact us.html">CONTACT US</a>
+          </li>
+          <form action="" class="d-flex buttons">
+            <input class="rounded-pill search-placeholder me-2 ms-2 w-50 ps-2" type="search" placeholder="🔍Search">
+            <button class="btn search-btn rounded-pill" type="submit"><a href="./orderonline.html">ORDER ONLINE</a></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+<!--navbar end-->
+<!--about us banner section starts-->
+<div class="container-fluid text-center about-us-banner py-5" data-aos="fade-up">
+    <h1 class="about-us-header text-capitalize">about us</h1>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="">
+</div>
+<!--about us banner section ends-->
+<!--about us paragraphs section starts-->
+<div class=" container text-center about-us-paras d-flex justify-content-center">
+  <div class="paras p-5" style="width: 700px;">
+    <p>Theobroma means 'Food of the Gods' in Greek, befitting our exclusive and indulgent range of offerings that include brownies, cakes, desserts, chocolates, breads, and savouries.</p>
+    <p>From our humble beginnings in 2004, when the first Theobroma pastry store opened its doors at the iconic Cusrow Baug at Colaba Causeway (Mumbai), we've grown to become a Pan-India chain of patisseries with stores in over 30 cities.</p>
+    <p>Our mission is to spread happiness by serving smiles on a plate, and this journey continues as we open Theobroma patisseries across the country.</p>
+    <img src="./assets/bird.jpg" alt="" class="bird-img d-none d-lg-inline">
+  </div>
+</div>
+<!--about us paragraphs section starts-->
+<!--about us slider section starts-->
+<div class="container-fluid p-5 about-sliders" data-aos="flip-left">
+  <div class="container p-lg-5">
+    <div id="carouselExampleAutoplaying" class="carousel slide" data-bs-ride="carousel">
+      <div id="carouselExampleIndicators" class="carousel slide">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="3" aria-label="Slide 4"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="4" aria-label="Slide 5"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="5" aria-label="Slide 6"></button>
+      </div>
+  <div class="carousel-inner">
+    <div class="carousel-item active" data-bs-interval="3000">
+      <img src="./assets/about-slider1.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./assets/about-slider2.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./assets/about-slider3.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./assets/about-slider4.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./assets/about-slider5.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item" data-bs-interval="3000">
+      <img src="./assets/about-slider6.jpg" class="d-block w-100" alt="...">
+    </div>
+  </div>
+  <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon border border-white rounded-circle" aria-hidden="true"></span>
+    <span class="visually-hidden">Previous</span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleAutoplaying" data-bs-slide="next">
+    <span class="carousel-control-next-icon border border-white rounded-circle" aria-hidden="true"></span>
+    <span class="visually-hidden">Next</span>
+  </button>
+  </div>
+</div>
+  </div>
+</div>
+<!--about us slider section ends-->
+<!--promise section starts-->
+<div class="container-fluid text-center p-5">
+  <div class="container p-5">
+    <h1 class="promise-header" data-aos="fade-up">Our Promise</h1>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="">
+    <div class="row my-5" data-aos="fade-down">
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3" data-aos="fade-right">
+        <img src="./assets/promise1.webp" alt="" class="promise-img">
+        <h5 class="promise-text mt-3">AUTHENTIC RECIPES</h5>
+        <p class="px-3">Our products are based on traditional home-style recipes, using fresh ingredients.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3" data-aos="fade-down">
+        <img src="./assets/promise2.webp" alt="" class="promise-img">
+        <h5 class="promise-text mt-3">BAKED WITH LOVE</h5>
+        <p class="px-3">Our passion for baking is poured into every recipe, serving smiles on a plate everyday.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3" data-aos="fade-down">
+        <img src="./assets/promise3.webp" alt="" class="promise-img">
+        <h5 class="promise-text mt-3">HONESTLY PRICED</h5>
+        <p class="px-3">We constantly strive to offer the best products at the right prices.</p>
+      </div>
+      <div class="col-12 col-sm-6 col-md-3 col-lg-3" data-aos="fade-left">
+        <img src="./assets/promise4.webp" alt="" class="promise-img">
+        <h5 class="promise-text mt-3">COMMITTED TO QUALITY</h5>
+        <p class="px-3">From our ingredients to our kitchen operations & guest services, we always prioritize quality.</p>
+      </div>
+    </div>
+  </div>
+</div>
+<!--promise section ends-->
+<!--our team section starts-->
+<div class="container-fluid text-center our-team py-5" data-aos="fade-up">
+    <h1 class="team-header">Our Team</h1>
+    <img src="./assets/speciality-cakes-title-underline.webp" alt="">
+    <div class="container mt-5">
+    <div class="row text-center text-sm-start">
+      <!--member1 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member1.webp" alt="" class="w-100">
+            <h4 class="member-name">RISHI GOUR</h4>
+            <p class="member-job">Chief Executive Officer</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              With over 22 years of international management experience, Rishi has a track record of increasing sales & growing bottom line while driving operational improvements
+              <input type="checkbox" id="toogle"><span class="dots">...</span>
+              <span class="data-hidden">& business transformation, in dynamic and demanding business environments. His areas of expertise include P&L Management, Strategy, Operations, Business Development, Program Management, Change Management & Business Transformation. He was awarded the D&I CEO of the Year at the 2019 Future Fluent Global Summit and has served on the advisory boards of global non-profits Catalyst and Stop Hunger Foundation.</span><br>
+              <label for="toogle" class="read-more-label"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member1 details section ends-->
+      <!--member2 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member2.webp" alt="" class="w-100">
+            <h4 class="member-name">KUNAL KUMAR</h4>
+            <p class="member-job">Head – Production, Product Development & Innovation</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              With over 20 years of culinary and F&B experience, Kunal heads Production and New Product Development at Theobroma. A graduate of the
+              <input type="checkbox" id="toogle2"><span class="dots2">...</span>
+              <span class="data-hidden2">Oberoi Centre for Learning and Development (OCLD), he has worked with prestigious hospitality chains such as Oberoi Hotels, Accor Hotels and Leela hotels, with international stints in South East Asia and France. Complimenting the extensive experience in hospitality, he has also held leadership positions in the food and bakery manufacturing and retail industry.</span><br>
+              <label for="toogle2" class="read-more-label2"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member2 details section ends-->
+      <!--member3 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member3.webp" alt="" class="w-100">
+            <h4 class="member-name">TINA SETHI</h4>
+            <p class="member-job">Chief Marketing Officer</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              With over 21 years of consumer marketing and brand building experience, Tina leads Marketing at Theobroma. A graduate of the Indian School of Business (ISB),
+              <input type="checkbox" id="toogle3"><span class="dots3">...</span>
+              <span class="data-hidden3">she has worked with large-scale, mid-size and early-stage consumer products businesses across FMCG, F&B, lifestyle, health and wellness. A prolific marketer, her areas of expertise including Marketing Strategy, Go-to-Market Planning, Brand and Category Management, New Product Development, Digital Marketing, Content & Communication, Consumer Engagement.</span><br>
+              <label for="toogle3" class="read-more-label3"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member3 details section ends-->
+      <!--member4 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member4.webp" alt="" class="w-100">
+            <h4 class="member-name">GEETA A SUNDRANI</h4>
+            <p class="member-job">Chief Human Resources Officer</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              A seasoned hospitality and human resources professional with 24 years of experience, Geeta leads the HR function at Theobroma. She has worked extensively
+              <input type="checkbox" id="toogle4"><span class="dots4">...</span>
+              <span class="data-hidden4">with national and international hospitality chains and has a proven track record of building successful HR frameworks from scratch. Her areas of expertise include Organisation Design, Workforce Planning and Recruitment, Learning and Development, Employee Engagement, Talent Assessment and Development, Industrial Relations and Compliance.</span><br>
+              <label for="toogle4" class="read-more-label4"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member4 details section ends-->
+      <!--member5 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member5.webp" alt="" class="w-100">
+            <h4 class="member-name">ABHISHEK SHAH</h4>
+            <p class="member-job">Chief Financial Officerr</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              A qualified chartered accountant with a career spanning 16 years, Abhishek heads the finance function at Theobroma. Over the span of his career, he has held senior positions
+              <input type="checkbox" id="toogle5"><span class="dots5">...</span>
+              <span class="data-hidden5"> in finance roles with large retail companies & accounting firms such as More Retail Pvt. Ltd. and Deloitte. His areas of expertise include Accounting & Reporting, Commercial, Treasury, Taxation and Treasury Operations. He has been bestowed with many awards, notable among these is the Top 100 CFO's by the CFO magazine.</span><br>
+              <label for="toogle5" class="read-more-label5"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member5 details section ends-->
+      <!--member6 details section starts-->
+      <div class="col-12 col-sm-12 col-md-12 col-lg-6">
+        <div class="mb-5 member-card">
+          <div class="bg-white px-5 pt-4 pb-1 mx-5 my-2">
+            <img src="./assets/member6.webp" alt="" class="w-100">
+            <h4 class="member-name">SIMANTINI BUDUKH</h4>
+            <p class="member-job">General Counsel and Company Secretary</p>
+          </div>
+          <div class="mx-5">
+            <p class="member-para me-5">
+              With over 17 years of experience Simantini oversees Legal & Corporate Governance function, Risk mitigation and Investor Relations at Theobroma. She has a track record
+              <input type="checkbox" id="toogle6"><span class="dots6">...</span>
+              <span class="data-hidden6">in driving diverse projects ranging from new business setups, Joint Ventures, Mergers & Acquisitions, Business Transfers and Share Sale. Her adeptness in setting up legal processes, contract management, corporate governance, compliance and dispute resolution has been pivotal in mitigating legal risks for business continuity. She is LLB, CS, M.Com and has done a General Management Program from Indian School of Business.</span><br>
+              <label for="toogle6" class="read-more-label6"></label>
+            </p>
+          </div>
+        </div>
+      </div>
+      <!--member6 details section ends-->
+    </div>
+    </div>
+</div>
+<!--our team section ends-->
+<!--like section starts-->
+<div class="container-fluid text-center like-section p-sm-5 border" data-aos="fade-up">
+  <h2 class="like-header mt-5">Like our products?</h2>
+  <img src="./assets/speciality-cakes-title-underline.webp" alt="" class="my-3"><br>
+  <p class="fw-medium">Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.</p>
+  <a href="./orderonline.html" class="text-uppercase btn btn-primary px-4 rounded-pill mt-3 py-2 order-btn">order online</a>
+</div>
+<!--like section ends-->
+<!--footer starts-->
+<footer class="container-fluid footer-section">
+  <div class="row py-5 text-center">
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+      <a class="navbar-brand fw-bold fs-3 text-info" href="#">CakeGPT</a>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+            <li><a href="" class="list-link">OUR STORY</a></li>
+            <li><a href="" class="list-link">OUR PRODUCTS</a></li>
+            <li><a href="" class="list-link">SPECIALITY CAKES</a></li>
+            <li><a href="" class="list-link">BLOGS</a></li>
+            <li><a href="" class="list-link">CSR</a></li>
+            <li><a href="" class="list-link">HTML SITEMAP</a></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+            <li><a href="" class="list-link">PRIVACY POLICY</a></li>
+            <li><a href="" class="list-link">COOKIE POLICY</a></li>
+            <li><a href="" class="list-link">REFUND POLICY</a></li>
+            <li><a href="" class="list-link">FAQs</a></li>
+            <li><a href="" class="list-link">NUTRITIONAL INFORMATION</a></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-3 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+           <li class="mb-3"><a href="" class="list-link"><i class="bi bi-telephone"></i> +91 8182-881881</a></li>
+           <li class="my-3"><a href="" class="list-link"><i class="bi bi-envelope"></i> contact@cakegpt.in</a></li>
+          <li class="my-4"><span><i class="bi bi-youtube border rounded-circle p-2 border-info border-2 text-danger footer-icon"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-instagram border rounded-circle p-2 border-info border-2 text-warning footer-icon"></i>&nbsp;&nbsp;&nbsp;<i class="bi bi-facebook border rounded-circle p-2 border-info border-2 text-primary footer-icon"></i></span></li>
+        </ul>
+    </div>
+    <div class="col-12 col-sm-12 col-md-12 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+           <li><a href="">Sign up for updates</a></li> 
+           <form action="">
+            <div class="d-flex my-3">
+            <input type="email" class="form-control me-2 bg-transparent border border-white" id="exampleInputEmail1" placeholder="Enter your email..." style="min-width: 150px;" >
+            <button type="button" class="btn btn-light ps-2 bg-transparent border border-white" style="height: 50px;padding-left:2px;">Light</button>
+            </div>
+           </form>
+           <div>
+            <p>OUR STORES - <a href="" class="list-link">Agra</a> | <a href="" class="list-link">Ahmedabad</a> | <a href="" class="list-link">Ambala</a> | <a href="" class="list-link">Anand</a> | <a href="" class="list-link">Bengaluru</a> | <a href="" class="list-link">Chandigarh-Mohali</a> | <a href="" class="list-link">Chennai</a> | <a href="" class="list-link">Coimbatore </a>| <a href="" class="list-link">Dehradun</a> | <a href="" class="list-link">Delhi</a> | <a href="" class="list-link">Faridabad</a> | <a href="" class="list-link">Ghaziabad</a> | <a href="" class="list-link">Gurgaon</a> | <a href="" class="list-link">Goa</a> | <a href="" class="list-link">Hyderabad</a> | <a href="" class="list-link">Indore</a> | <a href="" class="list-link">Jaipur</a> | <a href="" class="list-link">Jalandhar</a> | <a href="" class="list-link">Kanpur</a> | <a href="" class="list-link">Karnal</a> | <a href="" class="list-link">Lucknow</a> | <a href="" class="list-link">Ludhiana </a>| <a href="" class="list-link">Meerut</a> | <a href="" class="list-link">Mumbai </a> | <a href="" class="list-link">Mysore</a> | <a href="" class="list-link">Nagpur</a> | <a href="" class="list-link">Nashik</a> | <a href="" class="list-link">Navi</a> | <a href="" class="list-link">Noida</a> | <a href="" class="list-link">Patiala</a> | <a href="" class="list-link">Prayagraj</a> | <a href="" class="list-link">Pune</a> | <a href="" class="list-link">Raipur</a> | <a href="" class="list-link">Rajkot</a> | <a href="" class="list-link">Rohtak</a> | <a href="" class="list-link">Surat</a> | <a href="" class="list-link">Thane</a> | <a href="" class="list-link">Vadodara</a> | <a href="" class="list-link">Varanasi</a> | <a href="" class="list-link">Vijaywada</a></p>
+           </div>
+        </ul>
+    </div>
+  </div>
+</footer>
+<!--footer ends-->
+
+<!--aos js link-->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script>
+  AOS.init();
+</script>
+
+<!--bootstrap js-->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js" integrity="sha384-ndDqU0Gzau9qJ1lfW4pNLlhNTkCfHzAVBReH9diLvGRem5+R9g2FzA8ZGN954O5Q" crossorigin="anonymous"></script>
+  </body>
+</html>

@@ -1,0 +1,209 @@
+    body {
+      font-family: 'Segoe UI', sans-serif;
+    }
+
+    .tea-hero {
+     /* background-color: #eef6f3;*/
+      text-align: center;
+      padding: 2.2rem 1rem;
+    }
+
+    .tea-hero img {
+      width: 80px;
+    }
+
+    .tea-hero h1 {
+      margin-top: 1rem;
+      font-size: 2.2rem;
+      color: #9d7040;
+    }
+
+    .tea-hero p {
+      max-width: 600px;
+      margin: 0.5rem auto 0;
+      font-size: 1rem;
+      color: #555;
+    }
+
+    .breadcrumb-select {
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      padding: 1rem 2rem;
+    }
+
+    .sidebar h5 {
+      color: #9d7040;
+      border-bottom: 1px solid #d3a976;
+      padding-bottom: 0.4rem;
+    }
+
+    .sidebar ul {
+      padding-left: 0;
+    }
+
+    .sidebar ul li::before {
+      content: '› ';
+      color: #9d7040;
+      font-weight: bold;
+    }
+
+    .product-card {
+      border: 1px solid #eee;
+      padding: 1rem;
+      text-align: center;
+      border-radius: 8px;
+      height: 100%;
+      position: relative;
+    }
+
+    .product-card img {
+      width: 100%;
+      border-radius: 8px;
+    }
+
+    .product-card .price {
+      font-weight: 500;
+      margin-top: 0.5rem;
+      position: relative;
+      right: 25px;
+    }
+
+    .product-card .btn-order {
+      margin-top: 0.5rem;
+      font-size: 0.875rem;
+      background-color: #fff4ee;
+      border: 1px solid #e59062;
+      padding: 5px 14px;
+      border-radius: 20px;
+    }
+    .btn-link{
+      color: #d84f00;
+    }
+    .btn-link:hover{
+      color: white !important;
+    }
+    .btn-order:hover{
+      background-color: #d84f00;
+    }
+    .btn-order {
+      position: relative;
+      left: 35px;
+    }
+
+    .badge-custom {
+      position: absolute;
+      top: 10px;
+      left: 10px;
+      background: #fcd2d2;
+      color: #b33;
+      padding: 3px 6px;
+      font-size: 0.75rem;
+      border-radius: 3px;
+    }
+
+    .bottom-cta {
+      background-color: #eef6f3;
+      text-align: center;
+      padding: 3rem 1rem;
+    }
+
+    .bottom-cta h2 {
+      color: #9d7040;
+    }
+
+    .bottom-cta .btn {
+      background-color: #d84f00;
+      color: white;
+      border-radius: 25px;
+      padding: 8px 20px;
+      margin-top: 1rem;
+    }
+    .gifting-hero{
+     background-image: url('images/Gifting-Hero1.jpg');
+     background-size: cover;
+    }
+    .tea-hero-section{
+      background-image: url('images/tea-hero1.jpg');
+      background-size: cover;
+    }
+
+    /* Product Card Animation and Overlay */
+.product-card {
+  position: relative;
+  overflow: hidden;
+  border-radius: 10px;
+  cursor: pointer;
+  transition: transform 0.4s ease, box-shadow 0.4s ease;
+  background: #ffffff;
+  border: 1px solid #eee;
+}
+
+.product-card img {
+  width: 100%;
+  height: auto;
+  transition: transform 0.4s ease;
+}
+
+.product-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 12px 20px rgba(0, 0, 0, 0.1);
+}
+
+.product-card:hover img {
+  transform: scale(1.05);
+}
+
+.product-card .overlay {
+  position: absolute;
+  bottom: -100%;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(154, 109, 56, 0.8); /* warm brown overlay */
+  transition: bottom 0.4s ease;
+}
+
+.product-card:hover .overlay {
+  bottom: 0;
+}
+
+.product-card .overlay p {
+  font-size: 1.1rem;
+  letter-spacing: 0.5px;
+}
+
+.text-brown {
+  color: #9a6d38;
+}
+.like-section{
+    background-image: url('./assets/pre-order-img.webp');
+    width: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 500px;
+    border-bottom-color: black !important;
+}
+@media screen and (max-width: 500px) {
+    .like-section{
+        height: 400px;
+    }
+}
+.like-header{
+    color: #A98129;
+}
+.order-btn{
+    background-color: #F4bcb4 !important;
+    border-color: #A98129;
+    color: #A98129;
+    transition: all .3s ease-in-out;
+}
+.order-btn:hover{
+    background-color: #A98129 !important;
+    border: none;
+}
+.first-navbar{
+    position: sticky;
+    top: 0;
+    z-index: 1;
+}

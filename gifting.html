@@ -1,0 +1,423 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>CakeGPT</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/css/bootstrap.min.css" rel="stylesheet">
+  <link rel="stylesheet" href="tea-style.css">
+  <link rel="stylesheet" href="style.css">
+  <!--bootstrap icon link-->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.13.1/font/bootstrap-icons.min.css">
+</head>
+
+<body>
+
+  <!-- Include your Navbar here -->
+  <!--navbar start-->
+  <nav class="navbar navbar-expand-lg coloring first-navbar">
+  <div class="container-fluid">    
+    <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+    <button class="btn btn-primary d-lg-none" type="button" data-bs-toggle="offcanvas" data-bs-target="#offcanvasExample" aria-controls="offcanvasExample">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <!--offcanvas style-->
+    <div class="offcanvas offcanvas-start" tabindex="-1" id="offcanvasExample" aria-labelledby="offcanvasExampleLabel">
+      <div class="offcanvas-header">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="./index.html">CakeGPT</a>
+        <button type="button" class="btn-close" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+      </div>
+      <div class="offcanvas-body">
+        <ul class="navbar-nav ms-auto mb-2 mb-lg-0">
+          <li class="nav-item">
+            <a class="nav-link" aria-current="page" href="./about-us.html">ABOUT US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">PRODUCTS</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./speciality-cakes.html">SPECIALITY CAKES</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./Find us.html">FIND US</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact us.html">CONTACT US</a>
+          </li>
+          <form action="" class="d-flex buttons">
+            <input class="rounded-pill search-placeholder me-2 ms-2 w-50 ps-2" type="search" placeholder="🔍Search">
+            <button class="btn search-btn rounded-pill" type="submit"><a href="./orderonline.html">ORDER ONLINE</a></button>
+          </form>
+        </ul>
+      </div>
+    </div>
+  </div>
+</nav>
+  <!--navbar end-->
+
+  <!-- Hero Section -->
+  <section class="tea-hero gifting-hero">
+    <!-- <img src="https://i.ibb.co/TYW3zW5/tea-cake-icon.png" alt="Tea Cake" /> -->
+    <h1>GIFTING</h1>
+    <img src="./assets/underline.jpg" alt="">
+    <p class="pb-5">Your search for the perfect gift ends here! Choose from our range of hampers, gift bags & gift boxes each of them
+      a carefully curated assortment of our bestsellers.</p>
+  </section>
+
+  <!-- Breadcrumb + Sorting -->
+  <div class="breadcrumb-select container mt-3">
+    <small>Home › Products › <strong>Gifting</strong></small>
+    <select class="form-select w-auto">
+      <option selected>Featured</option>
+      <option>Best Selling</option>
+      <option>Alphabetically, A-Z</option>
+      <option>Alphabetically, Z-A</option>
+      <option>Date, New to Old</option>
+      <option>Date, Old to New</option>
+    </select>
+  </div>
+
+  <div class="container mt-4 mb-5">
+    <div class="row">
+      <!-- Sidebar -->
+      <div class="col-md-3 sidebar">
+        <h5>FILTERS</h5>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="egg" />
+          <label class="form-check-label" for="egg">Egg</label>
+        </div>
+        <div class="form-check">
+          <input class="form-check-input" type="checkbox" id="eggless" />
+          <label class="form-check-label" for="eggless">Eggless</label>
+        </div>
+
+        <h5 class="mt-4">PRODUCTS</h5>
+        <ul class="list-unstyled">
+          <li>Brownies</li>
+          <li>Biscuits, Cookies & Crackers</li>
+          <li>Breads</li>
+          <li>Cakes</li>
+          <li>Combos</li>
+          <li>Croissants & Danishes</li>
+          <li>Desserts & Cupcakes</li>
+          <li>Pastries</li>
+          <li>Sandwiches & Savouries</li>
+          <li>Tea Cakes</li>
+          <li>Beverages</li>
+          <li>Gifting</li>
+          <li>Collectibles</li>
+          <li>Mango Specials</li>
+        </ul>
+      </div>
+
+      <!-- Product Grid -->
+      <div class="col-md-9">
+        <div class="row g-4">
+
+          <!-- Product 1 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards1.webp" alt="Almond Rocks 250g" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Our Almond Rocks are perfectly toasted and crisp almonds coated in pure
+                  dark chocolate. Wrapped in attractive paper and festive boxes, these make for the perfect gift.</p>
+              </div>
+              <p class="mt-2">Almond Rocks 250g</p>
+              <span class="price">₹650</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+
+          <!-- Product 2 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards2.webp" alt="Almond Rocks 500g" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Our Almond Rocks are perfectly toasted and crisp almonds coated in pure
+                  dark chocolate. Wrapped in attractive paper and festive boxes, these make for the perfect gift.</p>
+              </div>
+              <p class="mt-2">Almond Rocks 500g</p>
+              <span class="price">₹1300</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+
+          <!-- Product 3 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards3.webp" alt="Premium Gift Hamper Basket" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Brownies (4 pcs), Double Choco
+                  Chip Cookies (8 pcs), Dense Loaf (350g), Butter Cookies (10 pcs), Ragi Crackers (100g), Butter
+                  Palmiers (50g).</p>
+              </div>
+              <p class="mt-2">Premium Gift Hamper Basket</p>
+              <span class="price">₹1700</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 4 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards4.webp" alt="Luxury Gift Hamper Basket" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Brownies (6pcs), Chocolate Chip
+                  Cookies (8 pcs), Dense loaf (350g), Butter Cookies (10pcs), Mava Cake (300g), Black Pepper Sourdough
+                  Crackers (100g), Almond Biscotti (150g).</p>
+              </div>
+              <p class="mt-2">Luxury Gift Hamper Basket</p>
+              <span class="price">₹2300</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 5 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards5.webp" alt="Indulgence Gift Hamper Basket" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Brownies (6 pcs), Chocolate Chip
+                  Cookies (8 pcs), Dense loaf (350g), Butter Cookies (10 pcs), Mava cake (300g), Almond Biscotti (150g),
+                  Chocolate Coated Biscuits (9 pcs), Pound Cake (210g), Almond Rocks (250g).</p>
+              </div>
+              <p class="mt-2">Indulgence Gift Hamper Basket</p>
+              <span class="price">₹3200</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></a></button>
+            </div>
+          </div>
+          <!-- Product 6 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards6.webp" alt="Indulgence Gift Hamper Basket(Eggless)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Eggless Brownies (6 pcs),
+                  Chocolate Chip Cookies (8 pcs), Eggless Dense Loaf (260g), Cheese Crackers (100g), Eggless Mava Cake
+                  (225g), Chocolate Coated Biscuits (9pcs), Orange Cookies (12 pcs), Butter Cookies (10 pcs).</p>
+              </div>
+              <p class="mt-2">Indulgence Gift Hamper Basket(Eggless)</p>
+              <span class="price">₹3200</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 7 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards7.webp" alt="Luxury Gift Hamper Basket(Eggless)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Eggless Brownies (6pcs),
+                  Chocolate Chip Cookies (8 pcs), Eggless Dense loaf (260g), Orange Cookies (12pcs), Eggless Mava Cake
+                  (225g), Cheese Crackers (100g), Chocolate Coated Biscuits (9 pcs).</p>
+              </div>
+              <p class="mt-2">Luxury Gift Hamper Basket(Eggless)</p>
+              <span class="price">₹2300</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 8 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards8.webp" alt="Premium Gift Hamper Basket(Eggless)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Eggless Brownies (4 pcs),
+                  Chocolate Chip Cookies (8 pcs), Eggless Dense loaf (260g), Butter Cookies (10 pcs), Ragi Crackers
+                  (100g), Butter Palmiers (50g).
+                </p>
+              </div>
+              <p class="mt-2">Premium Gift Hamper Basket(Eggless)</p>
+              <span class="price">₹1700</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 9 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards9.webp" alt="Premium Gift Hamper Bag" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">An assortment of our signature products - Eggless brownies (2 pcs),
+                  Chocolate Chip Cookies (8 pcs), Butter Palmiers (50g), Sweet Sesame Crackers (100g), Cheese Crackers
+                  (100g).
+
+                </p>
+              </div>
+              <p class="mt-2">Premium Gift Hamper Bag</p>
+              <span class="price">₹800</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 10 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards10.webp" alt="Customised Gift Hamper Bag" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Select from our range of assorted brownie boxes, teacakes,
+                  biscuits-cookies-crackers and Theobroma Collectibles merchandise.</p>
+              </div>
+              <p class="mt-2">Customised Gift Hamper Bag</p>
+              <span class="price">₹1022</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 11 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards11.webp" alt="Customised Gift Hamper Bag(Eggless)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Select from our range of assorted brownie boxes, teacakes,
+                  biscuits-cookies-crackers and Theobroma Collectibles merchandise.</p>
+              </div>
+              <p class="mt-2">Customised Gift Hamper Bag(Eggless)</p>
+              <span class="price">₹1022</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 12 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards12.webp" alt="Cookies Collection Gift Set(3)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Customise a gift set of 3 from our range of signature cookies and biscuits
+                  collection. Choose any 3 options - 1. Chocolate Chip Cookies, 2. Double Choco Chip Cookies, 3. Coconut
+                  Macaroons, 4. Orange Cookies, 5. Butter Cookies, 6. Hazelnut Cookies, 7. Chocolate coated Biscuits
+                </p>
+              </div>
+              <p class="mt-2">Cookies Collection Gift Set(3)</p>
+              <span class="price">₹675</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 13 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards13.webp" alt="Cookies Collection Gift Set(4)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Customise a gift set of 3 from our range of signature cookies and biscuits
+                  collection. Choose any 4 options - 1. Chocolate Chip Cookies, 2. Double Choco Chip Cookies, 3. Coconut
+                  Macaroons, 4. Orange Cookies, 5. Butter Cookies, 6. Hazelnut Cookies, 7. Chocolate coated Biscuits</p>
+              </div>
+              <p class="mt-2">Cookies Collection Gift Set(4)</p>
+              <span class="price">₹955</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 14 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards14.webp" alt="Customised Gift Hamper Basket" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Select from our range of assorted brownie boxes, teacakes,
+                  biscuits-cookies-crackers, chocolates and Theobroma Collectibles.</p>
+              </div>
+              <p class="mt-2">Customised Gift Hamper Basket</p>
+              <span class="price">₹2858</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Product 15 -->
+          <div class="col-md-4">
+            <div class="product-card h-100">
+              <img src="./assets/Gift-cards15.webp" alt="Customised Gift Hamper Basket(Eggless)" />
+              <div class="overlay d-flex align-items-center justify-content-center">
+                <p class="text-white fw-bold">Select from our range of assorted brownie boxes, teacakes,
+                  biscuits-cookies-crackers, chocolates and Theobroma Collectibles merchandise.</p>
+              </div>
+              <p class="mt-2">Customised Gift Hamper Basket(Eggless)</p>
+              <span class="price">₹2498</span>
+              <button class="btn btn-order"><a href="./orderonline.html" class="text-decoration-none btn-link">Order Online</a></button>
+            </div>
+          </div>
+          <!-- Add more products below if needed -->
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Like Our Products Section Start -->
+<div class="container-fluid text-center like-section p-sm-5 border" data-aos="fade-up">
+  <h2 class="like-header mt-5">Like our products?</h2>
+  <img src="./assets/speciality-cakes-title-underline.webp" alt="" class="my-3"><br>
+  <p class="fw-medium">Treat yourself to your favourite Theobroma products or surprise your loved ones with an edible gift.</p>
+  <a href="./orderonline.html" class="text-uppercase btn btn-primary px-4 rounded-pill mt-3 py-2 order-btn">order online</a>
+</div>
+<!-- Like Our Products Section End -->
+
+
+  <!-- Include your Footer here -->
+  <!--footer starts-->
+  <footer class="container-fluid footer-section">
+    <div class="row py-5 text-center">
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <a class="navbar-brand fw-bold fs-3 text-info" href="#">CakeGPT</a>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="" class="list-link">OUR STORY</a></li>
+          <li><a href="" class="list-link">OUR PRODUCTS</a></li>
+          <li><a href="" class="list-link">SPECIALITY CAKES</a></li>
+          <li><a href="" class="list-link">BLOGS</a></li>
+          <li><a href="" class="list-link">CSR</a></li>
+          <li><a href="" class="list-link">HTML SITEMAP</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-2 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="" class="list-link">PRIVACY POLICY</a></li>
+          <li><a href="" class="list-link">COOKIE POLICY</a></li>
+          <li><a href="" class="list-link">REFUND POLICY</a></li>
+          <li><a href="" class="list-link">FAQs</a></li>
+          <li><a href="" class="list-link">NUTRITIONAL INFORMATION</a></li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-3 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+          <li class="mb-3"><a href="" class="list-link"><i class="bi bi-telephone"></i> +91 8182-881881</a></li>
+          <li class="my-3"><a href="" class="list-link"><i class="bi bi-envelope"></i> contact@theobroma.in</a></li>
+          <li class="my-4"><span><i
+                class="bi bi-youtube border rounded-circle p-2 border-info border-2 text-danger footer-icon"></i>&nbsp;&nbsp;&nbsp;<i
+                class="bi bi-instagram border rounded-circle p-2 border-info border-2 text-warning footer-icon"></i>&nbsp;&nbsp;&nbsp;<i
+                class="bi bi-facebook border rounded-circle p-2 border-info border-2 text-primary footer-icon"></i></span>
+          </li>
+        </ul>
+      </div>
+      <div class="col-12 col-sm-12 col-md-12 col-lg-3 my-3">
+        <ul class="list-unstyled footer-link">
+          <li><a href="">Sign up for updates</a></li>
+          <form action="">
+            <div class="d-flex my-3">
+              <input type="email" class="form-control me-2 bg-transparent border border-white" id="exampleInputEmail1"
+                placeholder="Enter your email..." style="min-width: 150px;">
+              <button type="button" class="btn btn-light ps-2 bg-transparent border border-white"
+                style="height: 50px;padding-left:2px;">Light</button>
+            </div>
+          </form>
+          <div>
+            <p>OUR STORES - <a href="" class="list-link">Agra</a> | <a href="" class="list-link">Ahmedabad</a> | <a
+                href="" class="list-link">Ambala</a> | <a href="" class="list-link">Anand</a> | <a href=""
+                class="list-link">Bengaluru</a> | <a href="" class="list-link">Chandigarh-Mohali</a> | <a href=""
+                class="list-link">Chennai</a> | <a href="" class="list-link">Coimbatore </a>| <a href=""
+                class="list-link">Dehradun</a> | <a href="" class="list-link">Delhi</a> | <a href=""
+                class="list-link">Faridabad</a> | <a href="" class="list-link">Ghaziabad</a> | <a href=""
+                class="list-link">Gurgaon</a> | <a href="" class="list-link">Goa</a> | <a href=""
+                class="list-link">Hyderabad</a> | <a href="" class="list-link">Indore</a> | <a href=""
+                class="list-link">Jaipur</a> | <a href="" class="list-link">Jalandhar</a> | <a href=""
+                class="list-link">Kanpur</a> | <a href="" class="list-link">Karnal</a> | <a href=""
+                class="list-link">Lucknow</a> | <a href="" class="list-link">Ludhiana </a>| <a href=""
+                class="list-link">Meerut</a> | <a href="" class="list-link">Mumbai </a> | <a href=""
+                class="list-link">Mysore</a> | <a href="" class="list-link">Nagpur</a> | <a href=""
+                class="list-link">Nashik</a> | <a href="" class="list-link">Navi</a> | <a href=""
+                class="list-link">Noida</a> | <a href="" class="list-link">Patiala</a> | <a href=""
+                class="list-link">Prayagraj</a> | <a href="" class="list-link">Pune</a> | <a href=""
+                class="list-link">Raipur</a> | <a href="" class="list-link">Rajkot</a> | <a href=""
+                class="list-link">Rohtak</a> | <a href="" class="list-link">Surat</a> | <a href=""
+                class="list-link">Thane</a> | <a href="" class="list-link">Vadodara</a> | <a href=""
+                class="list-link">Varanasi</a> | <a href="" class="list-link">Vijaywada</a></p>
+          </div>
+        </ul>
+      </div>
+    </div>
+  </footer>
+  <!--footer ends-->
+  <!-- Bootstrap JS -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.7/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+
+</html>
